@@ -8,7 +8,7 @@ Base URL: https://student-management-system-uvmo.onrender.com
 
 Endpoints
 
-Create a Student
+# Create a Student
 
 URL: "/"
 
@@ -31,7 +31,7 @@ Response:
   "id": "64c7f06e9343e9abc7f49d81"
 }
 
-List Students
+# List Students
 
 URL: "/"
 
@@ -62,7 +62,7 @@ Response:
   ]
 }
 
-Fetch a Student by ID
+# Fetch a Student by ID
 
 URL: "/{id}"
 
@@ -88,7 +88,7 @@ Response:
   }
 }
 
-Update a Student by ID
+# Update a Student by ID
 
 URL: "/{id}"
 
@@ -114,7 +114,7 @@ Delete a Student by ID
 
 URL: "/{id}"
 
-Method: DELETE
+# Method: DELETE
 
 Description: Deletes a student by their unique ID.
 
@@ -131,7 +131,7 @@ Response:
   "message": "Student deleted successfully"
 }
 
-Notes:
+# Notes:
 
 Replace {id} in the URLs with the actual student ID.
 
