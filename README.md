@@ -1,6 +1,7 @@
 # student-management-system
 Backend for Student Management System using FastAPI and MongoDB Atlas.
 
+Tech Used: Python, FastAPI, MongoDB Atlas
 
 
 # Utilize Below Mentioned URL For Testing
