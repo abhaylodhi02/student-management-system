@@ -2,7 +2,8 @@
 Backend for Student Management System using FastAPI and MongoDB Atlas.
 
 
-# For Testing
+
+# Utilize Below Mentioned URL For Testing
 
 Base URL: https://student-management-system-uvmo.onrender.com
 
@@ -10,9 +11,10 @@ Endpoints
 
 # Create a Student
 
-URL: "/"
 
 Method: POST
+
+URL: https://student-management-system-uvmo.onrender.com/students/
 
 Description: Adds a new student to the database.
 
@@ -33,7 +35,7 @@ Response:
 
 # List Students
 
-URL: "/"
+URL: https://student-management-system-uvmo.onrender.com/students/
 
 Method: GET
 
@@ -45,7 +47,7 @@ country (optional): Filters students by their country.
 
 age (optional): Filters students with age greater than or equal to the provided value.
 
-Example Request: GET /?country=India&age=18
+Example Request: (GET) https://student-management-system-uvmo.onrender.com/students/?country=India&age=18
 
 Response:
 {
@@ -64,7 +66,7 @@ Response:
 
 # Fetch a Student by ID
 
-URL: "/{id}"
+URL: https://student-management-system-uvmo.onrender.com/students/{id}
 
 Method: GET
 
@@ -90,7 +92,7 @@ Response:
 
 # Update a Student by ID
 
-URL: "/{id}"
+URL: https://student-management-system-uvmo.onrender.com/students/{id}
 
 Method: PATCH
 
@@ -112,7 +114,7 @@ No content (status 204 if successful).
 
 Delete a Student by ID
 
-URL: "/{id}"
+URL: https://student-management-system-uvmo.onrender.com/students/{id}
 
 # Method: DELETE
 
