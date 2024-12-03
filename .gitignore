@@ -1,69 +1,9 @@
-# Byte-compiled files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Environment variables
 .env
-
-# Virtual environment
-venv/
-env/
-*.env
-
-# Logs
-*.log
-*.out
-*.err
-logs/
-
-# Test results
-coverage/
-.tox/
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Compiled files
-*.o
-*.a
-*.so
-*.dll
-*.dylib
-*.pyd
-
-# Operating system files
-.DS_Store
-Thumbs.db
-
-# IDE-specific files
-.idea/
 .vscode/
-*.sublime-workspace
-*.sublime-project
-
-# Docker files
-*.dockerignore
-docker-compose.override.yml
-
-# Python dependencies
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Builds
+*.pyc
+*.pyo
+*.pyd
 build/
 dist/
-*.egg-info/
-.eggs/
-
-# FastAPI static files
-staticfiles/
-
-# MongoDB dump files
-*.bson
-*.json
-
-# Miscellaneous
-*.bak
-*.swp
-*~
+*.db
